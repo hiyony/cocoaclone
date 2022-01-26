@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(125, 186, 189);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        @keyframes circleRotate{
+            0%{
+                transform: rotate(0);
+            }
+            50%{
+                transform: rotate(180deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes stickMoving{
+            0%{
+                transform: scale(1);
+            }
+            25%{
+                transform: scale(1.7);
+            }
+            50%{
+                transform: scale(1);
+            }
+            75%{
+                transform: scale(1);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
+        section{
+            width: 130px;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .circles{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            animation: circleRotate 2s ease-in-out infinite;
+        }
+        .circle{
+            width: 10px;
+            height: 10px;
+            margin: 50px 14px;
+            background-color: white;
+            border: 1px solid white;
+            border-radius: 50px;
+        }
+        .stick{
+            width: 9px;
+            height: 38px;
+            margin: 50px 4px;
+            background-color: white;
+            animation: stickMoving 1s ease-in-out infinite;
+        }
+        .s2{
+            animation-delay: 0.2s;
+        }
+        .s3{
+            animation-delay: 0.3s;
+        }
+        .s4{
+            animation-delay: 0.4s;
+        }
+        .s5{
+            animation-delay: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="circles">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="stick s1"></div>
+        <div class="stick s2"></div>
+        <div class="stick s3"></div>
+        <div class="stick s4"></div>
+        <div class="stick s5"></div>
+        
+    </section>
+</body>
+</html>
