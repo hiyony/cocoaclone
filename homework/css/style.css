@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 500px;
+    border: 5px solid mediumaquamarine;
+    margin: auto;
+    padding: 50px 30px 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-bar{
+    display: flex;
+    justify-content: center;
+}
+.top-bar__column{
+    width: 50%;
+    font-weight: 800;
+    font-size: 30px;
+}
+.top-bar__column:first-child{
+    display: flex;
+    justify-content: flex-start;
+}
+.top-bar__column:last-child{
+    margin-right: 95px;
+}
+.big-music{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+}
+.big-music__img{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(250, 208, 93);
+    border: 3px solid black;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.big-music__about{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.big-music__about span:first-child{
+    font-weight: 800;
+    font-size: 50px;
+    align-items: center;
+}
+.big-music__about span:last-child{
+    font-weight: 800;
+    font-size: 15px;
+}
+.mid-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+.mid-btn{
+    height: 60px;
+    border: 3px solid black;
+    border-width: 3px 3px 7px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+.mid-buttons__play{
+    width: 200px;
+    border-radius: 15px;
+}
+.fa-play-circle{
+    margin-right: 10px;
+}
+.mid-buttons__heart{
+    width: 60px;
+    border-radius: 50%;
+}
+.mid-buttons__plus{
+    width: 60px;
+    border-radius: 50%;
+}
+.music-list{
+    display: flex;
+    flex-direction: column;
+}
+.music-list__song{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0px;
+}
+.music-list__img{
+    width: 60px;
+    height: 60px;
+    background-color: tomato;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.music-list__song:nth-child(2) > .music-list__img{
+    background-color: pink;
+}
+.music-list__song:nth-child(3) > .music-list__img{
+    background-color:blue;
+}
+.music-list__song:last-child > .music-list__img{
+    background-color:aquamarine;
+}
+.music-list__about{
+    list-style-type: none;
+    padding-inline-start: 15px;
+}
+.music-list__about li:first-child{
+    font-weight: 800;
+    font-size: 30px;
+}
