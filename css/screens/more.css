@@ -1,0 +1,37 @@
+.more-screen .icon-row{
+    margin-top: 25px;
+}
+.fa-exclamation-circle{
+    color: #d6c5c5;
+    position: absolute;
+    top: 32px;
+    right: -16px;
+}
+.icon-row__more{
+    display: flex;
+}
+.more-suggestions{
+    margin-top: 40px;
+    border-top: var(--main-border);
+    padding-top: 30px;
+}
+.more-suggestions__title{
+    margin-bottom: 20px;
+}
+.more-suggestions__icons{
+    display: flex;
+    margin: 0px 25px;
+}
+.more-suggestions__icon{
+    margin-right: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+.more-suggestions__icon-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

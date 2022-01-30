@@ -30,6 +30,7 @@
     transition: border-color 0.3s ease-in-out;
 }
 #login-form input::placeholder{
+    font-family: 'Baloo Bhaijaan 2', cursive;
     color: rgba(0, 0, 0, 0.3);
 }
 #login-form input:focus{
@@ -37,6 +38,7 @@
 }
 #login-form input[type="submit"]{
     background-color: var(--yellow);
+    font-family: 'Baloo Bhaijaan 2', cursive;
     cursor: pointer;
     padding: 20px 0px;
     border-radius: 5px;

@@ -1,0 +1,18 @@
+.badge{
+    background-color: #d6c5c5;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+.small-badge{
+    background-color: #d6c5c5;
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+}
