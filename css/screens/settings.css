@@ -6,6 +6,10 @@
     justify-content: space-between;
     align-items: center;
 }
+.settings__setting--own{
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
 .settings__setting i{
     margin-right: 20px;
     font-size: 22px;
@@ -13,4 +17,7 @@
 }
 .settings__setting-column:last-child{
     opacity: 0.5;
+}
+.settings__setting--own2{
+    padding-top: 50px;
 }
